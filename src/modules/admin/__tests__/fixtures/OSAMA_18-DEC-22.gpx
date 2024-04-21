@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="eTrex 10" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">	
+
+	<metadata>
+		<link href="http://www.garmin.com">
+			<text>Garmin International</text>
+		</link>
+		<time>2022-12-18T08:38:44Z</time>
+	</metadata>
+	<wpt lat="30.648940" lon="30.300664">
+		<ele>22.585560</ele>
+		<time>2022-12-18T08:38:44Z</time>
+		<name>2245020527A-01</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.647467" lon="30.300181">
+		<ele>22.934942</ele>
+		<time>2022-12-18T08:43:25Z</time>
+		<name>2245020527A-02</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.646236" lon="30.305133">
+		<ele>25.640942</ele>
+		<time>2022-12-18T08:54:10Z</time>
+		<name>2245020527A-03</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.647749" lon="30.305618">
+		<ele>23.653301</ele>
+		<time>2022-12-18T08:57:55Z</time>
+		<name>2245020527A-04</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.724947" lon="30.267557">
+		<ele>14.811851</ele>
+		<time>2022-12-18T10:04:41Z</time>
+		<name>2245020528A-01</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.724720" lon="30.268416">
+		<ele>13.264695</ele>
+		<time>2022-12-18T10:06:50Z</time>
+		<name>2245020528A-02</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.721992" lon="30.267551">
+		<ele>15.455412</ele>
+		<time>2022-12-18T10:12:33Z</time>
+		<name>2245020528A-03</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+	<wpt lat="30.722197" lon="30.266684">
+		<ele>16.305042</ele>
+		<time>2022-12-18T10:15:57Z</time>
+		<name>2245020528A-04</name>
+		<cmt></cmt>
+		<sym>Flag, Blue</sym>
+	</wpt>
+</gpx>

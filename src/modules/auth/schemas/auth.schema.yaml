@@ -1,0 +1,103 @@
+components:
+  schemas:
+    userRegBody:
+      type: object
+      properties:
+        name:
+          type: string
+          example: mina
+        phone:
+          type: string
+          example: +20123190321
+        nationalId:
+          type: string
+          example: 294412000210100
+        tradeId:
+          type: string
+          example: ""
+        email:
+          type: string
+          example: user@mail.com
+        password:
+          type: string
+          example: 123456
+      required:
+        - name
+        - phone
+    userRegRes:
+      allOf:
+        - type: object
+          properties:
+            _id:
+              type: string
+              description: The document ID.
+              example: 1083921830218
+        - $ref: "#/components/schemas/userRegBody"
+    adminLog:
+      type: object
+      properties:
+        email:
+          type: string
+          example: user@mail.com
+        password:
+          type: string
+          example: 123456
+    userLogin:
+      type: object
+      properties:
+        phone:
+          type: string
+          example: +20123123123
+        password:
+          type: string
+          example: 123456
+      phoneVerify:
+        pincode:
+          type: string
+          example: 750560
+        phone:
+          type: string
+          example: +201010038766
+        fcm:
+          type: string
+          example: ado01j0d190e01jd0091jd091j09dj09109dj1090d921j09
+        checkCode:
+          type: string
+          example: MNNLGKIJCBJ4VMLSC
+    LoginResponse:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            name:
+              type: string
+              example: mina
+            email:
+              type: string
+              example: user@mail.com
+            phone:
+              type: string
+              example: +2012313213123
+            tradeId:
+              type: string
+            nationalId:
+              type: string
+              example: 29919230183099
+            permissions:
+              type: array
+              description: Permissions of user
+              items:
+                type: object
+                properties:
+                  key:
+                    type: string
+                    example: checkQR
+                  value:
+                    type: boolean
+                    example: false
+            role:
+              type: string
+              example: client
+        accessToken:
+          type: string
